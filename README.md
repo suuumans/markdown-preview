@@ -56,7 +56,7 @@ A real-time Markdown previewer that converts Markdown syntax into formatted HTML
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/markdown-preview.git
+git clone https://github.com/suuumans/markdown-preview.git
 ```
 
 2. Navigate to project directory:
