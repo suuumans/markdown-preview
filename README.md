@@ -13,7 +13,7 @@ A real-time Markdown previewer that converts Markdown syntax into formatted HTML
 
 ## 🖥️ Demo
 
-[Live Demo](your-deployment-link-here)
+[Live Demo](https://suuumans.github.io/markdown-preview/)
 
 ## 📸 Screenshots
 
