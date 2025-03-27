@@ -1,0 +1,147 @@
+
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #a2c6b4;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    background-color: #a2c6b4;
+}
+
+.input-section, .preview-section {
+    flex: 1;
+    background-color: #dedbdb;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+    border-bottom: 2px solid #dedbdb;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+textarea {
+    width: 100%;
+    height: 550px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #aaa7a7;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: 14px;
+}
+
+#markdown-input {
+    background-color: #dedbdb;
+}
+
+#markdown-preview {
+    width: 100%;
+    height: 500px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #aaa7a7;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: 14px;
+    overflow: auto;
+}
+
+#markdown-preview h1 {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+}
+
+#markdown-preview h2 {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 3px;
+}
+
+#markdown-preview strong {
+    font-weight: bold;
+}
+
+#markdown-preview em {
+    font-style: italic;
+}
+
+#markdown-preview a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#markdown-preview a:hover {
+    text-decoration: underline;
+}
+
+#markdown-preview ul, #markdown-preview ol {
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+#markdown-preview li {
+    margin-bottom: 5px;
+}
+
+#markdown-preview pre {
+    background-color: #f8f8f8;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow-x: auto;
+    font-family: monospace;
+    font-size: 14px;
+}
+
+#markdown-preview code {
+    font-family: monospace;
+    font-size: 14px;
+}
+
+#markdown-preview pre code {
+    display: block;
+    padding: 0;
+    border: none;
+}
+
+#clear-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f36d20;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#clear-button:hover {
+    background-color: #de641d;
+}
+
+#copy-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #13bb5c;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#copy-button:hover {
+    background-color: #0f8d45;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
